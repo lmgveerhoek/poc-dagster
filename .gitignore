@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dagster cache and temporary files
+dagster/.mypy_cache/
+dagster/.pytest_cache/
+dagster/dagster.yaml
+dagster/logs/
+dagster/workspace.yaml
+
+# Ignore temporary folders created by Dagster (e.g., tmp123456)
+tmp*/
+
+# Virtual environment folder
+.venv/
+
+# Environment variable and secrets files (if applicable)
+.env
+*.env
+
+# Python cache and package management
+*.egg-info/
+.eggs/
+*.pyo
+*.whl
+dist/
+build/
+pip-wheel-metadata/
+
+# Poetry and dependency management
+poetry.lock
+
+# Logs and debug files
+*.log
+
+# Data files
+*.csv
+*.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
